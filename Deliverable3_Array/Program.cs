@@ -2,8 +2,8 @@
 /* 
  * Author: Amanda Blakley
  * Date: 9/19/2019
- * Description: This C# console application code demonstrates the use of
- * array which are manually populated.
+ * Description: This C# console application code demonstrates the use of an
+ * array, which are manually populated.
 */
 
 using System;
@@ -17,6 +17,7 @@ namespace Deliverable3_Array
             try
             {
                 Console.WriteLine("Let's manually populate an array with integers");
+                Console.WriteLine();
                 Console.WriteLine("Then, let's iterate through the elements in the array");
                 Console.WriteLine("_________________________________________");
 
@@ -30,9 +31,11 @@ namespace Deliverable3_Array
                 }
                 Console.WriteLine("_________________________________________");
                 // Display a message after the element values have been displayed 
+                Console.WriteLine();
                 Console.WriteLine("Excellent Job! ");
 
-                // Display a message prompting the user to exit the program 
+                // Display a message prompting the user to exit the program
+                Console.WriteLine();
                 Console.WriteLine("Press any key to exit the program...");
 
                 // Pause the program and wait for the user to press a key to end the program
